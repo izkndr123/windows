@@ -3,10 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "2025"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
-      DISK_SIZE: "180G"
+      DISK_SIZE: "256G"
       USERNAME: "enderman"
       PASSWORD: "123456"
     devices:
